@@ -6,5 +6,5 @@
 
 | Model | Mode | PEFT Method | max_len | max_src_len | BatchSize | Epoch | GPU Usage | F1 Score |
 | :---: | :---:| :---------: | :-----: | :---------: | :-------: | :---: | :-------: | :------: |
-| ChatGLM2-6B| int8 | LoRA(r = 8) | 768 | 450 | 2 | 5 | 11.7GB | 0.119 |
-| Baichuan2-7B-Chat| fp16 | LoRA(r = 8) | 2048 | 1280 | 2 | 5 | 22.3GB |  |
+| ChatGLM2-6B| int8 | LoRA(r = 8) | 768 | 450 | 2 | 5 | 11.7GB | 0.1106 |
+| Baichuan2-7B-Chat| fp16 | LoRA(r = 8) | 1024 | - | 2 | 5 | 19.3GB | 0.4785 |
